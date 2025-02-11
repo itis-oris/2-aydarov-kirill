@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Sangyo";
+    src: url("../assets/fonts/Sangyo.ttf") format("truetype");
+}
+
+.root {
+    -fx-background-color: #f5efd5;
+    -fx-padding: 30;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 10, 0, 0, 5);
+    -fx-font-family: "Sangyo";
+    -fx-font-size: 28px;
+}
+
+Text {
+    -fx-fill: #4f3828;
+}
+
+.input-field {
+    -fx-padding: 10;
+    -fx-background-radius: 5;
+    -fx-border-color: #79553d;
+    -fx-border-radius: 5;
+}
+
+.input-field:focused {
+    -fx-border-color: #4f3828;
+}
+
+.primary-button {
+    -fx-background-color: #79553d;
+    -fx-text-fill: white;
+    -fx-padding: 15 20;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+.primary-button:hover {
+    -fx-cursor: hand;
+}
+
+.lobby-label {
+    -fx-font-size: 64px;
+}
+
+.connect-to-lobby-label {
+    -fx-font-size: 48px;
+}
+
+.error {
+    -fx-fill: #b02f12;
+}
+
+.text-step {
+    -fx-font-size: 36px;
+}
+
+#gridPane {
+    -fx-padding: 20px;
+    -fx-background-color: #FAE7B5;
+}
+
+#resultText{
+    -fx-font-size: 48px;
+}
+
+.image-container {
+    -fx-padding: 30px;
+    -fx-alignment: center;
+}
+
